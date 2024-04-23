@@ -71,11 +71,11 @@ cache: This operator allows you to view the cached version of a page. For exampl
 
 
 ##DNS Recon
-provides the ability to perform:
-Check all NS records for zone transfers
-Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
-Perform common SRV Record Enumeration
-Top level domain expansion
+  -provides the ability to perform:
+       -Check all NS records for zone transfers
+       -Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
+       -Perform common SRV Record Enumeration
+       -Top level domain expansion
 ## OUTPUT:
 
 
