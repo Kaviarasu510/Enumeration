@@ -79,9 +79,9 @@ cache: This operator allows you to view the cached version of a page. For exampl
        -Top level domain expansion
 ## OUTPUT:
 
+![3 1](https://github.com/Kaviarasu510/Enumeration/assets/119392695/60b16b2c-29b4-4040-b5f0-3523a8f18fc0)
 
-
-
+![3 2](https://github.com/Kaviarasu510/Enumeration/assets/119392695/8ac1cbc5-5ad8-4397-ad68-de0c6e924369)
 
 
 
@@ -89,20 +89,34 @@ cache: This operator allows you to view the cached version of a page. For exampl
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
+
 Get the namservers (threaded).
+
 Get the MX record (threaded).
+
 Perform axfr queries on nameservers and get BIND versions(threaded).
+
 Get extra names and subdomains via google scraping (google query = “allinurl: -www site:domain”).
+
 Brute force subdomains from file, can also perform recursion on subdomain that have NS records (all threaded).
+
 Calculate C class domain network ranges and perform whois queries on them (threaded).
+
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
+
 Write to domain_ips.txt file ip-blocks.
+
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+## OUTPUT
 
-##smtp-user-enum
+![3 3](https://github.com/Kaviarasu510/Enumeration/assets/119392695/ef44cb9c-0666-48c4-a92b-6be669f11207)
+
+## smtp-user-enum
+
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
+![3 4](https://github.com/Kaviarasu510/Enumeration/assets/119392695/de1cd343-785b-42ae-82b0-4746a473cb7c)
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
