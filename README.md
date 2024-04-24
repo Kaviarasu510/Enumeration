@@ -85,7 +85,8 @@ cache: This operator allows you to view the cached version of a page. For exampl
 
 
 
-##dnsenum
+## DNSENUM
+
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
