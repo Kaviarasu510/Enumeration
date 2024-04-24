@@ -124,12 +124,15 @@ In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 select any username in the first column of the above file and check the same
 
 
-#Telnet for smtp enumeration
+## Telnet for smtp enumeration
+
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
+
 telnet <host address> 25 to connect
+
 and issue appropriate commands
   
- ##Output
+## Output
   
   
 
