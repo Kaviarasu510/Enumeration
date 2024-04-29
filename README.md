@@ -138,7 +138,8 @@ and issue appropriate commands
   
 ## Output
 
-![image](https://github.com/Kaviarasu510/Enumeration/assets/119392695/aaeaee70-00ec-4b9d-970d-0dc8235e7130)
+![3 7](https://github.com/Kaviarasu510/Enumeration/assets/119392695/eb5ea01f-8651-4322-b883-3c55106a94d4)
+
 
   
 ## nmap –script smtp-enum-users.nse <hostname>
