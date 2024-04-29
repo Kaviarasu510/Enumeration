@@ -121,11 +121,15 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+![3 5](https://github.com/Kaviarasu510/Enumeration/assets/119392695/ef0bdb6d-f6cb-47c4-a0db-49e43e930662)
+
 select any username in the first column of the above file and check the same
+
+![3 6](https://github.com/Kaviarasu510/Enumeration/assets/119392695/c4a2e35e-9dc4-46f3-9e4f-99f807b9dba8)
 
 
 ## Telnet for smtp enumeration
-
+ 
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 
 telnet <host address> 25 to connect
@@ -133,17 +137,19 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
 ## Output
-  
-  
 
+![image](https://github.com/Kaviarasu510/Enumeration/assets/119392695/aaeaee70-00ec-4b9d-970d-0dc8235e7130)
+
+  
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
-
 ## OUTPUT:
 
+![3 8](https://github.com/Kaviarasu510/Enumeration/assets/119392695/cd2d5375-f08c-469b-a07f-aebfddb8f19c)
 
+          
 ## RESULT:
 The Google hacking keywords and enumeration tools were identified and executed successfully
 
